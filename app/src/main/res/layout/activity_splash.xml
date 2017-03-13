@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/colorPrimary"
+    android:background="#E3493D"
     tools:context="com.sunny.xianyuenews.activity.SplashActivity">
 
     <ImageView
