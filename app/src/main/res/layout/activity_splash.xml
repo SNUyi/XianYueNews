@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#48a1ef"
+    android:background="@color/colorPrimary"
     tools:context="com.sunny.xianyuenews.activity.SplashActivity">
 
     <ImageView
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:src="@mipmap/second_logo"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash_pic"/>
 
 
 </LinearLayout>
