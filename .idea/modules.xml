@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/library/InitActivity/InitActivity.iml" filepath="$PROJECT_DIR$/library/InitActivity/InitActivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/XianYueNews.iml" filepath="$PROJECT_DIR$/XianYueNews.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/channelmanager/channelmanager.iml" filepath="$PROJECT_DIR$/channelmanager/channelmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/irecyclerview/irecyclerview.iml" filepath="$PROJECT_DIR$/library/irecyclerview/irecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
   </component>
 </project>
