@@ -11,7 +11,7 @@ public class BottomTab {
     private int icon;
     private Class fragment;
 
-    public BottomTab(int title, int icon, Class fragment) {
+    public BottomTab(Class fragment, int title, int icon) {
         this.title = title;
         this.icon = icon;
         this.fragment = fragment;

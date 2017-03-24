@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context="com.sunny.xianyuenews.activity.MainActivity">
 
-<!--    <FrameLayout
+   <FrameLayout
         android:id="@+id/realtabcontent"
         android:layout_width="fill_parent"
         android:layout_height="0dip"
@@ -27,5 +27,5 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_weight="0" />
-    </com.sunny.xianyuenews.widget.FragmentTabHost> -->
+    </com.sunny.xianyuenews.widget.FragmentTabHost>
 </LinearLayout>
