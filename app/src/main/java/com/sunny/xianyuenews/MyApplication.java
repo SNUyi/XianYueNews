@@ -53,7 +53,7 @@ public class MyApplication extends Application {
         // 设置是否为上报进程
         CrashReport.UserStrategy strategy = new CrashReport.UserStrategy(mContext);
         strategy.setUploadProcess(processName == null || processName.equals(packageName));
-        CrashReport.initCrashReport(getApplicationContext(), "7a544c9222", false);
+        CrashReport.initCrashReport(getApplicationContext(), "436a9efd1d", false);
     }
 
     /**
