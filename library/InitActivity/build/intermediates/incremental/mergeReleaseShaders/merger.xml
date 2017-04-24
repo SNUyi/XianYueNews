@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\MyProjects\XianYueNews\library\InitActivity\src\main\shaders"/></dataSet><dataSet config="release"><source path="E:\MyProjects\XianYueNews\library\InitActivity\src\release\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="F:\java1\AndroidStudioProjects\XianYueNews\library\InitActivity\src\main\shaders"/></dataSet><dataSet config="release"><source path="F:\java1\AndroidStudioProjects\XianYueNews\library\InitActivity\src\release\shaders"/></dataSet></merger>

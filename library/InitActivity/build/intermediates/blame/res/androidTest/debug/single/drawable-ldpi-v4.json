@@ -1,5 +1,9 @@
 [
     {
+        "merged": "F:\\java1\\AndroidStudioProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "F:\\java1\\AndroidStudioProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\MyProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_launcher.png",
         "source": "E:\\MyProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_launcher.png"
     }
