@@ -15,17 +15,25 @@ import android.widget.LinearLayout;
 import com.aspsine.irecyclerview.IRecyclerView;
 import com.aspsine.irecyclerview.OnLoadMoreListener;
 import com.aspsine.irecyclerview.OnRefreshListener;
+import com.sunny.xianyuenews.MyApplication;
 import com.sunny.xianyuenews.R;
+import com.sunny.xianyuenews.Utils.DensityUtils;
 import com.sunny.xianyuenews.Utils.LocalCacheUtils;
 import com.sunny.xianyuenews.Utils.LogUtils;
+import com.sunny.xianyuenews.Utils.NetWorkUtil;
 import com.sunny.xianyuenews.Utils.ThreadManager;
 import com.sunny.xianyuenews.Utils.ToastUtils;
+import com.sunny.xianyuenews.activity.NewsDetailActivity;
+import com.sunny.xianyuenews.activity.PicDetailActivity;
 import com.sunny.xianyuenews.adapter.NewsListAdapter;
 import com.sunny.xianyuenews.bean.NewsListNormalBean;
 import com.sunny.xianyuenews.common.Api;
 import com.sunny.xianyuenews.fragment.BaseFragment;
 import com.sunny.xianyuenews.http.DataParse;
+import com.sunny.xianyuenews.http.HttpCallbackListener;
+import com.sunny.xianyuenews.http.HttpHelper;
 import com.sunny.xianyuenews.widget.ClassicRefreshHeaderView;
+import com.sunny.xianyuenews.widget.DividerGridItemDecoration;
 import com.sunny.xianyuenews.widget.LoadMoreFooterView;
 import com.sunny.xianyuenews.widget.LoadingPage;
 
@@ -188,6 +196,7 @@ public class NewsListFragment extends BaseFragment {
         });
     }
 
+    //请求数据
     public void requestData() {
 
 //        http://c.m.163.com/nc/article/list/T1467284926140/0-20.html
@@ -199,7 +208,7 @@ public class NewsListFragment extends BaseFragment {
                     isConnectState = true;
                     HttpHelper.get(mUrl, new HttpCallbackListener() {
                         @Override
-                        public void onSuccess(String result) {
+                        public void onSuccess(String result ) {
                             mNewsListNormalBeanList = DataParse.NewsList(result, tid);
 
                             if (mNewsListNormalBeanList != null) {

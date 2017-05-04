@@ -3,11 +3,9 @@ package com.sunny.xianyuenews.fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
@@ -21,12 +19,14 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
+
 import com.sunny.xianyuenews.R;
 import com.sunny.xianyuenews.Utils.CategoryDataUtils;
 import com.sunny.xianyuenews.Utils.IOUtils;
 import com.sunny.xianyuenews.Utils.ListDataSave;
 import com.sunny.xianyuenews.activity.ChannelManagerActivity;
 import com.sunny.xianyuenews.adapter.FixedPagerAdapter;
+import com.sunny.xianyuenews.fragment.news.NewsListFragment;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -150,9 +150,9 @@ public class NewsFragment extends BaseFragment {
         }
         fragments.clear();
         for (int i = 0; i < myChannelList.size(); i++) {
-//            baseFragment = NewsListFragment.newInstance(myChannelList.get(i).getTid());
-//
-//            fragments.add(baseFragment);
+            baseFragment = NewsListFragment.newInstance(myChannelList.get(i).getTid());
+
+            fragments.add(baseFragment);
         }
         if (myChannelList.size() <= 4) {
             mTabLayout.setTabMode(TabLayout.MODE_FIXED);

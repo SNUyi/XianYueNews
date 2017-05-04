@@ -16,9 +16,11 @@ import java.util.List;
 
 /**
  * 孙立鹏 on 2017/3/24 13:51
+ *
+ * 图片模块
  */
 
-public class PhotoFragment {
+public class PhotoFragment extends BaseFragment {
     private final String TAG = PhotoFragment.class.getSimpleName();
 
     private TabLayout mTabLayout;
@@ -29,4 +31,30 @@ public class PhotoFragment {
     private static List<ProjectChannelBean> channelBeanList;
 
 
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        mView = inflater.inflate(R.layout.tablayout_pager, container, false);
+        return mView;
+    }
+
+    @Override
+    public void initView() {
+
+    }
+
+    @Override
+    public void initValidata() {
+
+    }
+
+    @Override
+    public void initListener() {
+
+    }
+
+    @Override
+    public void bindData() {
+
+    }
 }
