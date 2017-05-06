@@ -48,7 +48,7 @@
                 android:layout_marginTop="10dp"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:text="我是大名鼎鼎的文章标题哟"
+                android:text="这里是文章的标题"
                 android:textColor="@color/black"
                 android:textSize="20dp"/>
 
@@ -88,7 +88,7 @@
                 android:scrollbars="none"/>
         </LinearLayout>
 
-        <cn.bproject.neteasynews.widget.LoadingPage
+        <com.sunny.xianyuenews.widget.LoadingPage
             android:id="@+id/loading_page"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

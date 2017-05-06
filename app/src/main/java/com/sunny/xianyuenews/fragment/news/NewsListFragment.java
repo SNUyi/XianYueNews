@@ -15,6 +15,7 @@ import android.widget.LinearLayout;
 import com.aspsine.irecyclerview.IRecyclerView;
 import com.aspsine.irecyclerview.OnLoadMoreListener;
 import com.aspsine.irecyclerview.OnRefreshListener;
+
 import com.sunny.xianyuenews.MyApplication;
 import com.sunny.xianyuenews.R;
 import com.sunny.xianyuenews.Utils.DensityUtils;

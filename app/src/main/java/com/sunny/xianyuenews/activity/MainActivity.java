@@ -13,8 +13,10 @@ import android.widget.TextView;
 import com.sunny.xianyuenews.R;
 import com.sunny.xianyuenews.Utils.LogUtils;
 import com.sunny.xianyuenews.bean.BottomTab;
+import com.sunny.xianyuenews.fragment.AboutFragment;
 import com.sunny.xianyuenews.fragment.NewsFragment;
 import com.sunny.xianyuenews.fragment.PhotoFragment;
+import com.sunny.xianyuenews.fragment.VideoFragment;
 import com.sunny.xianyuenews.widget.FragmentTabHost;
 
 import java.util.ArrayList;
@@ -43,11 +45,11 @@ public class MainActivity extends BaseActivity {
         // 新闻标签
         BottomTab bottomTab_news = new BottomTab(NewsFragment.class,R.string.news_fragment,R.drawable.select_icon_news);
         // 图片标签
-        BottomTab bottomTab_photo = new BottomTab(NewsFragment.class,R.string.photo_fragment,R.drawable.select_icon_photo);
+        BottomTab bottomTab_photo = new BottomTab(PhotoFragment.class,R.string.photo_fragment,R.drawable.select_icon_photo);
         // 视频标签
-        BottomTab bottomTab_video = new BottomTab(NewsFragment.class,R.string.video_fragment,R.drawable.select_icon_video);
+        BottomTab bottomTab_video = new BottomTab(VideoFragment.class,R.string.video_fragment,R.drawable.select_icon_video);
         // 我 标签
-        BottomTab bottomTab_about = new BottomTab(NewsFragment.class,R.string.about_fragment,R.drawable.select_icon_about);
+        BottomTab bottomTab_about = new BottomTab(AboutFragment.class,R.string.about_fragment,R.drawable.select_icon_about);
 
 
         mBottomTabs.add(bottomTab_news);
