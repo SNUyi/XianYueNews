@@ -34,8 +34,7 @@
             android:name=".activity.PicDetailActivity"
             android:process=":vitamio" />
         <activity android:name=".activity.PhotoActivity" />
-        <activity android:name=".activity.ChannelManagerActivity">
-        </activity>
+        <activity android:name=".activity.ChannelManagerActivity"/>
     </application>
 
 </manifest>

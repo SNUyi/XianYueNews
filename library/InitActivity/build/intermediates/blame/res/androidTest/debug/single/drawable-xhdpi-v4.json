@@ -1,11 +1,11 @@
 [
     {
-        "merged": "F:\\java1\\AndroidStudioProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png",
-        "source": "F:\\java1\\AndroidStudioProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png"
-    },
-    {
         "merged": "F:\\java1\\AndroidStudioProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scrubber_control_disabled_holo.png",
         "source": "F:\\java1\\AndroidStudioProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_disabled_holo.png"
+    },
+    {
+        "merged": "F:\\java1\\AndroidStudioProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png",
+        "source": "F:\\java1\\AndroidStudioProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png"
     },
     {
         "merged": "F:\\java1\\AndroidStudioProjects\\XianYueNews\\library\\InitActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\scrubber_control_normal_holo.png",
