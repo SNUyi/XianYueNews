@@ -28,7 +28,7 @@ public class CategoryDataUtils {
     public static List<ProjectChannelBean> getPicCategoryBeans(){
         List<ProjectChannelBean>  beans=new ArrayList<>();
         // GirdView排版
-        beans.add(new ProjectChannelBean("推荐","/6LRK0031,6LRI0031/","0031"));
+//        beans.add(new ProjectChannelBean("推荐","/6LRK0031,6LRI0031/","0031"));
         // ListView排版
         beans.add(new ProjectChannelBean("新闻","/00AP0001,3R710001,4T8E0001/","0001"));
         //  ListView排版
