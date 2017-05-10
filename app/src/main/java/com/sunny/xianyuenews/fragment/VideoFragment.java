@@ -25,6 +25,7 @@ import com.sunny.xianyuenews.Utils.NetWorkUtil;
 import com.sunny.xianyuenews.Utils.ThreadManager;
 import com.sunny.xianyuenews.Utils.ToastUtils;
 import com.sunny.xianyuenews.Utils.UIUtils;
+import com.sunny.xianyuenews.activity.VideoDetailActivity;
 import com.sunny.xianyuenews.adapter.VideoListAdapter;
 import com.sunny.xianyuenews.bean.VideoBean;
 import com.sunny.xianyuenews.common.Api;
