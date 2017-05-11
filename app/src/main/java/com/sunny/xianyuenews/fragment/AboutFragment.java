@@ -70,20 +70,19 @@ public class AboutFragment extends BaseFragment{
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = null;
                 Uri uri;
-//                1.项目主页
-//                2.问题反馈
-//                3.设置
-//                4.关于App
+             /* 1.网页新闻
+                2.问题反馈
+                3.设置
+                4.关于App
+                */
 
                 switch (position) {
                     case 0:
                         // 用户界面
-                        Toast.makeText(getActivity(), "未实现登陆功能", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "闲阅新闻", Toast.LENGTH_SHORT).show();
                         break;
                     case 1:
-                        // 进入项目主页
-//                String url = "https://github.com/liaozhoubei/NetEasyNews";
-//                WebViewActivity.loadUrl(getActivity(), url, "加载中...");
+                        // 网页新闻
                         uri = Uri.parse(getActivity().getResources().getString(R.string.project_url));
                         intent = new Intent(Intent.ACTION_VIEW, uri);
                         startActivity(intent);
