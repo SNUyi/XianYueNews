@@ -14,8 +14,7 @@
     <LinearLayout
         android:id="@+id/ll_content"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_height="200dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
@@ -53,16 +52,10 @@
             style="@style/horizontalLine"
             android:layout_marginLeft="10dp" />
 
-        <TextView
-            android:id="@+id/tv_updata_note"
-            style="@style/menuItem"
-            android:clickable="true"
-            android:text="更新日志" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="100dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -74,7 +67,7 @@
                 android:lineSpacingExtra="2dp"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
-                android:text="很高兴您能使用，如感到满意请Star一下吧，我们将继续迭代，增加更多功能，O(∩_∩)O ~"
+                android:text="@string/string_about_tv_content"
                 android:textColor="@color/colorSubtitle"
                 android:textSize="14sp" />
 

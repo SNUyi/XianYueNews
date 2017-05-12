@@ -3,7 +3,7 @@
     android:divider="@null"
     android:dividerHeight="0px">
 
-    <cn.bproject.neteasynews.widget.MyDialogPreference
+    <com.sunny.xianyuenews.widget.MyDialogPreference
         android:dialogIcon="@android:drawable/ic_dialog_alert"
         android:dialogMessage="是否清除应用缓存"
         android:key="clear_cache"
