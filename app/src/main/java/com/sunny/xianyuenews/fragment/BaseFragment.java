@@ -25,7 +25,7 @@ public abstract class BaseFragment extends Fragment implements DefineView {
     public final int HANDLER_SHOW_REFRESH_LOADMORE_ERRO = 15;
 
 
-    private final String TAG = BaseFragment.class.getSimpleName();
+    private final String TAG = getClass().getSimpleName();
 
     /**
      * 设置toolbar标题居中，没有返回键
@@ -95,6 +95,6 @@ public abstract class BaseFragment extends Fragment implements DefineView {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        LogUtils.i("SUNny", getClass().getSimpleName());
+        LogUtils.i("SUNny", TAG);
     }
 }
