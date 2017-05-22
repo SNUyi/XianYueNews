@@ -14,7 +14,7 @@ import uk.co.senab.photoview.PhotoView;
  * 作者：SUNny on 2017/5/4 0004 15:43
  * 邮箱：sunlipeng1994@163.com
  *
- * 单张可缩放图片不浏览
+ * 单张可缩放图片浏览
  */
 
 public class PhotoActivity extends BaseActivity {
