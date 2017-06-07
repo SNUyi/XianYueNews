@@ -20,6 +20,7 @@ import java.io.File;
 /**
  * 作者：SUNny on 2017/5/11 0011 16:40
  * 邮箱：sunlipeng1994@163.com
+ * 设置页面
  */
 
 public class SettingFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener, DefineView {
